@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewBag.Title = "DadosProduto";
+}
+
+<h2>DadosProduto</h2>
+
+<div ng-controller="DadosProdutoController">
+    <div style="font-weight:bold">
+        Produto
+    </div>
+    <table>
+        <tr>
+            <td>Código do Produto :</td>
+            <td>{{Produto.Id}}</td>
+        </tr>
+        <tr>
+            <td>Nome do Produto : </td>
+            <td>{{Produto.Nome}}</td>
+        </tr>
+        <tr>
+            <td>Descrição do Produto :</td>
+            <td>{{Produto.Descricao}}</td>
+        </tr>
+        <tr>
+            <td>Preço do Produto :</td>
+            <td>{{Produto.Preco}}</td>
+        </tr>
+        <tr>
+            <td>Estoque :</td>
+            <td>{{Produto.Estoque}}</td>
+        </tr>
+    </table>
+</div>
+
